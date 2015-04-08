@@ -1,0 +1,12 @@
+# <src>                                      <mnt_point>  	<type>  <mnt_flags and options>                     <fs_mgr_flags>
+
+/dev/block/mmcblk0p21		/boot		emmc		defaults		defaults
+/dev/block/mmcblk0p28		/recovery  	emmc		defaults		defaults
+/dev/block/mmcblk0p27		/cache      ext4		defaults		defaults
+/dev/block/mmcblk0p25		/system     ext4		defaults		defaults
+/dev/block/mmcblk0p29		/data		ext4		defaults	 	defaults
+/dev/block/mmcblk0p15       /misc           emmc    defaults        defaults
+
+/dev/null					/sdcard		datamedia		defaults		defaults
+/dev/block/mmcblk1p1		/external_sd	vfat		defaults		defaults
+

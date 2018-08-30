@@ -21,8 +21,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),886U)
-include device/coolpad/886U/kernel/AndroidKernel.mk
+ifeq ($(TARGET_DEVICE),8860U)
+include device/coolpad/8860U/kernel/AndroidKernel.mk
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 $(shell mkdir -p $(TARGET_OUT)/etc/firmware/wlan/prima; \

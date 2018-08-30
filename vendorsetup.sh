@@ -1,2 +1,3 @@
-
-add_lunch_combo cm_8297-eng
+add_lunch_combo lineage_8860U-eng
+add_lunch_combo lineage_8860U-userdebug
+add_lunch_combo lineage_8860U-user

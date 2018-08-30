@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VENDOR=coolpad
-DEVICE=8297
+DEVICE=8860U
 
 function extract() {
     for FILE in `egrep -v '(^#|^$)' $1`; do

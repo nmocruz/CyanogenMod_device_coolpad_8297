@@ -28,6 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+$(call inherit-product, build/target/product/go_defaults.mk)
 
 TARGET_SCREEN_HEIGHT := 960 
 TARGET_SCREEN_WIDTH := 540
